@@ -5,7 +5,7 @@
   diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
   LA51: undefined,
   greetingBox: undefined,
-  twikooEnvId: 'pinglun-beryl.vercel.app',
+  twikooEnvId: 'https://pinglun-beryl.vercel.app/.netlify/functions/twikoo',
   commentBarrageConfig:undefined,
   root: '/',
   preloader: undefined,
@@ -337,7 +337,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'pinglun-beryl.vercel.app',
+        envId: 'https://pinglun-beryl.vercel.app/.netlify/functions/twikoo',
         region: '',
         pageSize: 6,
         includeReply: true
