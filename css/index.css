@@ -22154,7 +22154,7 @@ i.bber-gotobb {
   overflow: hidden;
   text-overflow: ellipsis;
   transition: 0.3s;
-  font-weight: 700;
+  /* font-weight: 700; */
   margin: auto;
   cursor: pointer;
   white-space: nowrap;
